@@ -1,0 +1,130 @@
+.type-1216 li {
+  list-style: none;
+  float: left;
+}
+.type-1216 a {
+  text-decoration: none;
+}
+.type-1216 .main {
+  margin: 0;
+}
+.type-1216 .line {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.type-1216 .top-bar .top-links {
+  display: block;
+}
+.type-1216 .top-bar .top-links a {
+  text-decoration: none;
+  margin: 10px 10px 10px 0px;
+  color: #555;
+  font-size: 13px;
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  border-bottom: 2px solid yellow;
+}
+.type-1216 .top-bar .top-links a:hover {
+  color: #666;
+}
+.type-1216 .top-bar .top-links ul {
+  padding-left: 0px;
+}
+.type-1216 .top-bar .top-links ul li {
+  position: relative;
+  display: inline-block;
+}
+.type-1216 .top-bar .top-links ul li .b {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  width: 250px;
+  bottom: 50px;
+  padding: 10px 20px;
+  z-index: 1;
+  white-space: nowrap;
+  border-radius: 5px;
+}
+.type-1216 .top-bar .top-links ul li .b:after {
+  border-top-color: #333;
+  left: 10%;
+  content: '';
+  position: absolute;
+  border-width: 7px;
+  border-style: solid;
+  top: 111px;
+}
+.type-1216 .top-bar .top-links ul li:hover .b {
+  display: block;
+}
+.type-1216 .top-bar .top-links .c {
+  font-size: 15px;
+  font-weight: bold;
+  color: yellow;
+  text-align: center;
+}
+.type-1216 .top-bar .top-text {
+  float: right;
+  font-size: 15px;
+}
+.type-1216 .top-bar .top-text .icon-social {
+  display: inline-block;
+}
+.type-1216 .top-bar .top-text .email:hover {
+  background-color: #ac3e31;
+  color: #fff;
+  transition: 0.5s;
+}
+.type-1216 .top-bar .top-text .prin:hover {
+  background-color: #bd081c;
+  color: #fff;
+  transition: 0.5s;
+}
+.type-1216 .top-bar .top-text span {
+  border-bottom: 2px solid yellow;
+  padding: 5px 0;
+}
+.type-1216 .top-bar .top-text .text {
+  font-size: 13px;
+}
+.type-1216 .top-bar .top-text i {
+  padding: 7px 13px;
+  transition: 0.3s;
+}
+.type-1216 .top-bar .top-text i:hover {
+  background-color: #3b5998;
+  color: #fff;
+  transition: 0.5s;
+}
+@media (max-width: 980px) {
+  .type-1216 .top-bar .top-links ul li .b {
+    position: unset;
+  }
+  .type-1216 .top-bar .top-links ul li .q {
+    position: fixed;
+  }
+  .type-1216 .top-bar .top-links ul li:hover .q {
+    display: block;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+  }
+  .type-1216 .top-bar .top-links ul li .b:after {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .type-1216 .top-bar .top-text {
+    float: left;
+    margin-bottom: 3px;
+  }
+}
+@media (max-width: 392px) {
+  .type-1216 .icon-social {
+    margin-top: 5px;
+  }
+}

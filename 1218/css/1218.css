@@ -1,0 +1,64 @@
+.type-1218 {
+  margin-bottom: 40px;
+}
+.type-1218 .bg-about {
+  background-image: url("../images/about-image.jpg");
+  padding: 250px 0;
+  background-size: cover;
+}
+.type-1218 p {
+  text-align: center;
+}
+.type-1218 h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+.type-1218 .line {
+  padding: 0px;
+}
+.type-1218 .tittle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.type-1218 .tit {
+  text-align: center;
+  margin-top: 40px;
+}
+.type-1218 .tittle-sub {
+  color: #fdd000;
+}
+.type-1218 .title-content {
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+}
+.type-1218 .boder {
+  border-bottom: 3px solid;
+  width: 10%;
+  margin: 0 auto;
+  border-color: #fdd000;
+  margin-bottom: 10px;
+}
+.type-1218 .boder-text {
+  width: 40%;
+}
+.type-1218 .content {
+  margin-top: 30px;
+  line-height: 20px;
+}
+@media (max-width: 650px) {
+  .type-1218 .tittle {
+    font-size: 15px;
+  }
+  .type-1218 .content {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 990px) {
+  .type-1218 .tit .tittle {
+    font-size: 18px;
+  }
+}

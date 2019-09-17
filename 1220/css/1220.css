@@ -1,0 +1,127 @@
+.type-1220 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.type-1220 span {
+  color: #fdd000;
+}
+.type-1220 .work {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.type-1220 h3 {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #333;
+  line-height: 1.5;
+  font-family: inherit;
+}
+.type-1220 p {
+  line-height: 1.8;
+  margin: 8px 0 0 0;
+  color: #444;
+  text-align: justify;
+}
+.type-1220 h4 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.type-1220 .bad {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.type-1220 .footer {
+  text-align: center;
+  padding: 0;
+}
+.type-1220 .footer .vien {
+  border-bottom: 2px solid #fdd000;
+  display: block;
+  width: 100px;
+  height: 2px;
+  left: 50%;
+  bottom: 0;
+  margin-left: -50px;
+  margin: 0 auto;
+}
+.type-1220 .footer .vien:hover {
+  width: 200px;
+  transition: 1s;
+}
+.type-1220 .center {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.type-1220 .bod {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888;
+  width: 60px;
+  height: 60px;
+  vertical-align: inherit;
+}
+.type-1220 .fbox-icon {
+  padding-left: 6px;
+  padding-right: 6px;
+  top: 50%;
+  left: 50%;
+}
+.type-1220 .fbox-icon i {
+  font-size: 30px;
+  line-height: 62px;
+  font-style: unset;
+}
+.type-1220 .fbox-icon a {
+  text-decoration: none;
+  color: #888;
+}
+.type-1220 strong {
+  border-bottom: 2px solid #fdd000;
+}
+.type-1220 .divider.divider-center {
+  text-align: center;
+}
+.type-1220 .divider {
+  position: relative;
+  overflow: hidden;
+  margin: 35px 0;
+  color: #E5E5E5;
+  width: 75%;
+}
+.type-1220 .divider.divider-center:before {
+  left: -50% !important;
+  right: 0;
+  margin-left: -20px;
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 8px;
+  left: 30px;
+  height: 0;
+  border-top: 1.5px solid #EEE;
+}
+.type-1220 .divider.divider-center:after {
+  left: 50% !important;
+  right: 0;
+  margin-left: 20px;
+  box-sizing: border-box;
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 8px;
+  left: 30px;
+  height: 0;
+  border-top: 1.5px solid #EEE;
+}
+@media (max-width: 760px) {
+  .type-1220 .dong2 {
+    margin-top: -40px;
+    margin-bottom: -40px;
+  }
+}

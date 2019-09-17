@@ -1,0 +1,130 @@
+.type-1220{
+    @color:#fdd000;
+    margin-top:30px;
+    margin-bottom:30px;
+        span{
+            color:@color;
+        }
+        .work{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        h3{
+            margin:0px;
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+            color: #333;
+            line-height: 1.5;
+            font-family: inherit;
+        }
+        p{
+           line-height: 1.8;
+           margin: 8px 0 0 0;
+           color: #444;	       
+           text-align: justify;
+       }
+       h4{
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .bad{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .footer{
+        text-align:center;
+        padding: 0;
+        .vien {
+            border-bottom:2px solid #fdd000;
+            display: block;
+            width: 100px;
+            height: 2px;
+            left: 50%;
+            bottom: 0;
+            margin-left: -50px;
+            margin:0 auto;
+        }
+        .vien:hover{
+            width:200px;
+            transition:1s;
+        }
+    }
+    .center{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .bod{
+        border-radius:50%  ;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #888;
+        width:60px;
+        height:60px;
+        vertical-align: inherit;
+    }
+    .fbox-icon{
+    	padding-left: 6px;
+        padding-right: 6px;
+        top: 50%;
+        left: 50%;
+        i{
+            font-size: 30px;
+            line-height: 62px;
+            font-style: unset;
+        }
+        a{
+            text-decoration: none;
+            color: #888;
+        }
+    }
+    strong{
+        border-bottom:2px solid @color;
+    }
+    .divider.divider-center{
+        text-align:center;
+    }
+    .divider{
+        position: relative;
+        overflow: hidden;
+        margin: 35px 0;
+        color: #E5E5E5;
+        width: 75%;
+    }
+    .divider.divider-center:before {
+        left: -50% !important;
+        right: 0;
+        margin-left: -20px;
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 8px;
+        left: 30px;
+        height: 0;
+        border-top: 1.5px solid #EEE; 
+    }
+    .divider.divider-center:after {
+        left: 50% !important;
+        right: 0;
+        margin-left: 20px;
+        box-sizing: border-box;
+        content: '';
+        position: absolute;
+        width: 100%;
+        top: 8px;
+        left: 30px;
+        height: 0;
+        border-top: 1.5px solid #EEE;
+    }
+    @media (max-width:760px){
+
+        .dong2{
+            margin-top:-40px;
+            margin-bottom:-40px;
+        }  
+        
+    }
+}
