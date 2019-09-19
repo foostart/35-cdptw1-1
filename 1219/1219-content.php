@@ -1,7 +1,6 @@
 <?php
-include '../config.php';
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
@@ -16,9 +15,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 <span class="depa">KTROYAL</span>
             </div>
             <!--END TITLE-->
-            <div class="boder"></div>
+            <div class="border"></div>
             <!--LIST-->
-            <a href="#" class=" button hvr-backward">
+            <a href="#" class="button hvr-backward">
                 <i class="fa fa-arrow-right ican"></i>
                 <div class="text">Tổng giám đốc</div>
             </a>
@@ -56,31 +55,31 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <!--END TITLE-->
 
-            <div class="boder"></div>
+            <div class="border"></div>
 
             <!--ITEM-->
-            <div class="col-md-2 col-sm-2 ico">
+            <div class="col-md-2 col-sm-4 col-xs-6 ico">
                 <i class="fa fa-building icon" aria-hidden="true"></i><br>
                 <h3>TỔNG THẦU XÂY DỰNG</h3>
             </div>
 
-            <div class="col-md-2 col-sm-2 ico">
+            <div class="col-md-2 col-sm-4 col-xs-6 ico">
                 <i class="fa fa-object-group icon" aria-hidden="true"></i><br>
                 <h3>THIẾT KẾ VÀ THI CÔNG</h3>
             </div>
-            <div class="col-md-2 col-sm-2 ico">
+            <div class="col-md-2 col-sm-4 col-xs-6 ico">
                 <i class="fa fa-cubes icon" aria-hidden="true"></i><br>
                 <h3>NỘI THẤT</h3>
             </div>
-            <div class="col-md-2 col-sm-2 ico">
+            <div class="col-md-2 col-sm-4 col-xs-6 ico">
                 <i class="fa fa-puzzle-piece icon" aria-hidden="true"></i><br>
                 <h3>HẠ TẦNG</h3>
             </div>
-            <div class="col-md-2 col-sm-2 ico">
+            <div class="col-md-2 col-sm-4 col-xs-6 ico">
                 <i class="fa fa-crosshairs icon" aria-hidden="true"></i><br>
                 <h3>CƠ ĐIỆN</h3>
             </div>
-            <div class="col-md-2 col-sm-2 ico">
+            <div class="col-md-2 col-sm-4 col-xs-6 ico">
                 <i class="fa fa-hashtag icon" aria-hidden="true"></i><br>
                 <h3>DỊCH VỤ KHÁC</h3>
             </div>

@@ -1,8 +1,7 @@
 <?php
-include '../config.php';
 
 $url_host = 'http://'.$_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
@@ -18,34 +17,34 @@ $url_path = str_replace('\\', '/', $url_path);
                     <ul>
                         <li>
                             <a href="#">Giám đốc</a>
-                            <div class="b q">
-                                <p class="c">Thái Trung Kiên</p>
+                            <div class="frame sticky">
+                                <p class="title">Thái Trung Kiên</p>
                                 <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;thaikienkts@gmail.com</p>
                                 <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0982.956.427</p>
                             </div>
                         </li>
                         <li>
                             <a href="#">Kỹ thuật</a>
-                            <div class="b q">
-                                <p class="c">Bùi Quốc Triều</p>
+                            <div class="frame sticky">
+                                <p class="title">Bùi Quốc Triều</p>
                                 <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;buiquoctrieu91@gmail.com</p>
                                 <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0905.149.479</p>
                             </div>
                         </li>
                         <li>
                             <a href="#">Chất lượng</a>
-                            <div class="b q">
-                                <p class="c">Thái Trung Kiên</p>
+                            <div class="frame sticky">
+                                <p class="title">Thái Trung Kiên</p>
                                 <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;thaikienkts@gmail.com</p>
                                 <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0982.956.427</p>
                             </div>
                         </li>
                         <li>
                             <a href="#">Tài chính</a>
-                            <div class="b q">
-                                <p class="c">Bùi Quốc Triều</p>
+                            <div class="frame sticky">
+                                <p class="title">Bùi Quốc Triều</p>
                                 <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;buiquoctrieu91@gmail.com</p>
-                                <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0905.149.479</p>>
+                                <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0905.149.479</p>
                             </div>
                         </li>
                     </ul>
@@ -54,7 +53,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="top-text">
                         <span class="text">Hotline</span><span>&nbsp;&nbsp;0982.956.427</span>
                         <div class='icon-social'>
-                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook fb"></i>
+                            <i class="fa fa-envelope email"></i>
+                            <i class="fa fa-skype skype"></i>
                         </div>
                     </div>
                     <!--END HOTLINE-->

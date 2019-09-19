@@ -48,11 +48,11 @@
   font-weight: 700;
   color: #333;
 }
-.type-1219 .boder {
+.type-1219 .border {
   border-bottom: 2px solid;
   width: 10%;
   margin: 0 auto;
-  border-color: #fdd000;
+  border-color: #FCDC4A;
   margin-bottom: 20px;
   margin-top: 10px;
 }
@@ -85,9 +85,6 @@
   letter-spacing: 1px;
   border: none;
 }
-.type-1219 .tright {
-  text-align: right;
-}
 .type-1219 .icon {
   background-color: #ffe365;
   border-radius: 50%;
@@ -107,6 +104,7 @@
   font-weight: bold;
   margin-left: 4px;
   line-height: 1.5;
+  white-space: nowrap;
 }
 .type-1219 .margin-tb-s {
   margin-top: 30px;
@@ -119,14 +117,6 @@
 }
 .type-1219 .depa {
   color: #fdd000;
-}
-.type-1219 .icon-line {
-  font-family: lined-icons;
-}
-.type-1219 .icon-i:hover {
-  position: relative;
-  display: block;
-  margin-right: 50px;
 }
 .type-1219 .hvr-icon-forward .hvr-icon:hover {
   display: inline-block;
@@ -152,4 +142,10 @@
 .type-1219 .ico {
   padding-right: 0;
   padding-left: 0;
+}
+@media (max-width: 380px) {
+  .type-1219 h3 {
+    font-size: 14px;
+    white-space: unset;
+  }
 }
