@@ -22,7 +22,6 @@ $less->compileFile('less/837.less', 'css/837.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-<!------ Include the above in your HEAD tag ---------->
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/837.css" rel="stylesheet" type="text/css" />
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>

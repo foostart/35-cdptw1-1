@@ -1,6 +1,6 @@
 function validateForm() {
     if (!validateName() || !validatePhone() || !validateEmail()) {
-        //alert("Không hợp lệ");
+        alert("Không hợp lệ");
         return false;
     }
 }
@@ -9,11 +9,7 @@ function validateName() {
     var name = document.getElementById('name').value;
 
     if (name.length == 0) {
-        alert("Mời nhập tên");
-        return false;
-    }
-    if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
-        alert('Xin mời nhập tên');
+        alert("Xin mời nhập tên");
         return false;
     }
 }
@@ -24,7 +20,7 @@ function validatePhone() {
         alert('Xin mời nhập số điện thoại');
         return false;
     }
-    if (phone.length != 10) {
+    if (phone.length > 10 || phone.length < 10) {
         alert('Xin mời nhập số điện thoại');
         return false;
     }

@@ -9,6 +9,7 @@
 #home_quicklinks {
 	padding: 20px 0;
 	text-align: center;
+	margin-bottom: 80px;
 }
 a.quicklink.link1 {
 	background: #fc6719;
@@ -111,7 +112,7 @@ a.quicklink.link3 {
 	position: relative;
 	width: 300px;
 	height: 173.21px;
-	margin: 70px auto;
+	margin: 0 auto;
 	background-image: url(http://csshexagon.com/img/meow.jpg);
 	background-size: auto 334.8632px;
 	background-position: center;
@@ -189,4 +190,11 @@ a.quicklink.link3 {
 		background: inherit;
 		background-position: center bottom;
 	}
+}
+
+@media (max-width: 360px) {
+	#home_quicklinks {
+		margin-bottom: 75px;
+	}
+
 }

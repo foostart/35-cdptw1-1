@@ -53,9 +53,9 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="top-text">
                         <span class="text">Hotline</span><span>&nbsp;&nbsp;0982.956.427</span>
                         <div class='icon-social'>
-                            <i class="fa fa-facebook fb"></i>
-                            <i class="fa fa-envelope email"></i>
-                            <i class="fa fa-skype skype"></i>
+                            <a href="#"><i class="fa fa-facebook fb"></i></a>
+                            <a href="#"><i class="fa fa-envelope email"></i></a>
+                            <a href="#"><i class="fa fa-skype skype"></i></a>
                         </div>
                     </div>
                     <!--END HOTLINE-->

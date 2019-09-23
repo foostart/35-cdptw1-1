@@ -26,35 +26,35 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <!--CONTACT PERSON-->
                                 <div class="col-md-4 col-sm-6 padding-20">
                                     <label class="input">
-                                        <input type="text" id="name" name="name_1" placeholder="Họ và tên">
+                                        <input type="text" id="name" name="name" placeholder="Họ và tên">
                                     </label>
                                 </div>
                                 <!--CELL PHONE-->
                                 <div class="col-md-4 col-sm-6 padding-20">
                                     <label class="input">
-                                        <input type="text" id="phone" name="name_1" placeholder="Số điện thoại">
+                                        <input type="text" id="phone" name="phone" placeholder="Số điện thoại">
                                     </label>
                                 </div>
                                 <!--EMAIL-->
                                 <div class="col-md-4 col-sm-6 padding-20">
                                     <label class="input">
-                                        <input type="text" id="email" name="name_1" placeholder="Email">
+                                        <input type="text" id="email" name="email" placeholder="Email">
                                     </label>
                                 </div>
                                 <!--ADDRESS-->
                                 <div class="col-md-4 col-sm-6 padding-20">
                                     <label class="input">
-                                        <input type="text" id="address" name="name_1" placeholder="Địa chỉ">
+                                        <input type="text" id="address" name="address" placeholder="Địa chỉ">
                                     </label>
                                 </div>
                                 <!--CATEGORY-->
-                                <div class="col-md-4 col-sm-6 padding-20" id="type">
+                                <div class="col-md-4 col-sm-6 padding-20">
                                     <select class="select" name="select_name">
-                                        <option value="#" class="selected_disable" selected disabled="disabled">Loại công trình</option>
-                                        <option value="#" class="option_select">Residential</option>
-                                        <option value="#" class="option_select">Commercial space</option>
-                                        <option value="#" class="option_select">Office</option>
-                                        <option value="#" class="option_select">Old house renovation</option>
+                                        <option value="" class="selected_disable" selected disabled="disabled">Loại công trình</option>
+                                        <option value="1" class="option_select">Residential</option>
+                                        <option value="2" class="option_select">Commercial space</option>
+                                        <option value="3" class="option_select">Office</option>
+                                        <option value="4" class="option_select">Old house renovation</option>
                                     </select>
                                     <i class="fa fa-sort-desc" aria-hidden="true"></i>
                                     <i class="fa fa-sort-up" aria-hidden="true"></i>
@@ -64,7 +64,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <h4>Mô tả thêm</h4>
                                     <!--MESSAGE-->
                                     <div class="col-md-12 padding-20">
-                                        <textarea rows="5" id="content" class="detail" placeholder="Nội dung"></textarea>
+                                        <textarea rows="5" class="detail" placeholder="Nội dung"></textarea>
                                     </div>
                                 </div>
                                 <!--SUBMIT-->
