@@ -1,8 +1,7 @@
 <?php
-     include '../config.php';
  
         $url_host = 'http://'.$_SERVER['HTTP_HOST'];
-        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
+        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']),'\\');
         $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
         
         preg_match_all($pattern_uri, __DIR__, $matches);
@@ -35,9 +34,12 @@
 
     <body>
         <?php
-            include $dir_block. '/1217-content.php';
+            include '../1217/1217-content.php';
         ?>
+         <script src="<?php echo $url_path ?>/js/1217.js"></script>
     </body>
+
+   
 
 </html>
 

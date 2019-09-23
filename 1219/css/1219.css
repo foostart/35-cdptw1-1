@@ -57,7 +57,7 @@
   margin-top: 10px;
 }
 .type-1219 .button {
-  padding: 0 32px;
+  width: 250px;
 }
 .type-1219 body:not(.device-touch) .button {
   transition: all 0.2s ease-in-out;
