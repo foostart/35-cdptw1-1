@@ -49,8 +49,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                                 <!--CATEGORY-->
                                 <div class="col-md-4 col-sm-6 padding-20">
-                                    <select class="select" name="select_name">
-                                        <option value="" class="selected_disable" selected disabled="disabled">Loại công trình</option>
+                                    <select class="select" name="select_name" id="type">
+                                        <option value="0" class="selected_disable" selected disabled="disabled">Loại công trình</option>
                                         <option value="1" class="option_select">Residential</option>
                                         <option value="2" class="option_select">Commercial space</option>
                                         <option value="3" class="option_select">Office</option>
