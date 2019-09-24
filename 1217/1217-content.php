@@ -9,7 +9,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1217">
-    <div class="container contact">
+    <div class="container">
         <div class="row">
             <!--FORM CONTACT-->
             <div class="contact_us">
