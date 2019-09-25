@@ -2,11 +2,11 @@
   background-color: #eee;
   text-align: center;
 }
-.type-1219 .list {
+.type-1219 .line {
   padding-left: 0px;
   padding-right: 0px;
 }
-.type-1219 .list-c {
+.type-1219 .line-c {
   padding: 0px;
   margin-top: 15px;
 }
@@ -56,24 +56,20 @@
   margin-bottom: 20px;
   margin-top: 10px;
 }
-.type-1219 .button {
-  width: 250px;
-}
 .type-1219 body:not(.device-touch) .button {
   transition: all 0.2s ease-in-out;
 }
 .type-1219 .button {
+  width: 250px;
   overflow: hidden;
   border-radius: 3px;
-  font-size: 16px;
+  font-size: 15px;
   height: 46px;
   line-height: 46px;
   background-color: #fff;
   color: #333;
   text-shadow: none;
   text-decoration: none;
-}
-.type-1219 .button {
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -99,7 +95,7 @@
   background-color: #ffd000;
 }
 .type-1219 h3 {
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   font-weight: bold;
   margin-left: 4px;
@@ -147,5 +143,20 @@
   .type-1219 h3 {
     font-size: 14px;
     white-space: unset;
+  }
+}
+@media (max-width: 270px) {
+  .type-1219 .button {
+    width: 200px;
+    font-size: 11px;
+  }
+  .type-1219 h3 {
+    font-size: 10px;
+  }
+  .type-1219 .icon {
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    padding-top: 20px;
   }
 }

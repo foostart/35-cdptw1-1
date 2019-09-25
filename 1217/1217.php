@@ -34,7 +34,7 @@
 
     <body>
         <?php
-            include '../1217/1217-content.php';
+            include './1217-content.php';
         ?>
          <script src="<?php echo $url_path ?>/js/1217.js"></script>
     </body>

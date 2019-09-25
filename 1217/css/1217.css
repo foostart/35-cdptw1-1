@@ -1,6 +1,8 @@
 .type-1217 {
   font: 15px/19px 'Microsoft JhengHei', 'Open Sans', Helvetica, Arial, sans-serif;
   background-image: url("../images/bg-header-66.jpg");
+  background-size: cover;
+  background-attachment: scroll;
   height: auto;
 }
 .type-1217 .fa {

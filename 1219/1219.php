@@ -33,7 +33,7 @@
 
 <body>
     <?php
-    include '../1219/1219-content.php';
+    include './1219-content.php';
     ?>
 </body>
 

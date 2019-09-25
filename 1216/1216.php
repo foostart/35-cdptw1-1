@@ -34,7 +34,7 @@
     </head>
 
     <body>
-       <?php include '../1216/1216-content.php'; ?>
+       <?php include './1216-content.php'; ?>
 
      
     </body>

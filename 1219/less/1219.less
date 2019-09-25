@@ -1,14 +1,15 @@
 .type-1219 {
     @color: #FCDC4A;
+    @fontsize-text: 15px;
     background-color: #eee;
     text-align: center;
 
-    .list {
+    .line {
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    .list-c {
+    .line-c {
         padding: 0px;
         margin-top: 15px;
     }
@@ -69,27 +70,21 @@
         margin-top: 10px;
     }
 
-    .button {
-        width: 250px;
-    }
-
     body:not(.device-touch) .button {
         transition: all 0.2s ease-in-out;
     }
 
     .button {
+        width: 250px;
         overflow: hidden;
         border-radius: 3px;
-        font-size: 16px;
+        font-size: @fontsize-text;
         height: 46px;
         line-height: 46px;
         background-color: #fff;
         color: #333;
         text-shadow: none;
         text-decoration: none;
-    }
-
-    .button {
         display: inline-block;
         position: relative;
         cursor: pointer;
@@ -118,7 +113,7 @@
     }
 
     h3 {
-        font-size: 16px;
+        font-size: @fontsize-text;
         text-align: center;
         font-weight: bold;
         margin-left: 4px;
@@ -175,6 +170,24 @@
         h3 {
             font-size: 14px;
             white-space: unset;
+        }
+    }
+
+    @media (max-width: 270px) {
+        .button {
+            width: 200px;
+            font-size:11px;
+        }
+
+        h3 {
+            font-size: 10px;
+        }
+
+        .icon {
+            height: 80px;
+            width: 80px;
+            font-size: 40px;
+            padding-top: 20px;
         }
     }
 }

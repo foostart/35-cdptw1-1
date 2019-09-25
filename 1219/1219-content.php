@@ -8,7 +8,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1219">
     <!--LIST COMPANY-->
-    <div class="container list">
+    <div class="container line">
         <div class="row">
             <!--TITLE-->
             <div class="in">TỔ CHỨC CÔNG TY
@@ -41,14 +41,15 @@ $url_path = str_replace('\\', '/', $url_path);
                 <i class="fa fa-arrow-right ican"></i>
                 <div class="text">Đối tác</div>
             </a>
+            
             <!--END LIST-->
         </div>
     </div>
     <!--END LIST COMPANY-->
     <hr class="margin-tb-s">
     <!--LIST JOB-->
-    <div class="container list">
-        <div class="col-md-12 list-c">
+    <div class="container line">
+        <div class="row line-c">
             <!--TITLE-->
             <div class="in">CHÚNG TÔI
                 <span class="depa">CUNG CẤP</span>

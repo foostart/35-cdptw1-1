@@ -4,6 +4,8 @@
     @background-color-fb: #395795;
     @background-color-email: #ac3e31;
     @background-color-skype: #087bbd;
+    @title-color: yellow;
+    @fontsize-text: 15px;
     //margin-top: 100px;
 
     li {
@@ -29,7 +31,7 @@
         .top-links {
             a {
                 text-decoration: none;
-                margin: 10px 10px 0px 0px;
+                margin: 8px 10px 0px 0px;
                 color: @color-text;
                 font-size: 13px;
                 color: grey;
@@ -79,19 +81,16 @@
                 display: block;
             }
 
-            display:block;
-
             .title {
-                font-size: 15px;
+                font-size: @fontsize-text;
                 font-weight: bold;
-                color: yellow;
+                color: @title-color;
                 text-align: center;
             }
         }
 
         .top-text {
             float: right;
-            font-size: 15px;
 
             .icon-social {
                 display: inline-block;
@@ -134,7 +133,7 @@
             }
 
             .text {
-                font-size: 15px;
+                font-size: @fontsize-text;
             }
 
             span {
@@ -146,13 +145,6 @@
     }
 
 
-    @media (max-width: 1200px) {
-        .top-bar {
-            .top-text {
-                float: right;
-            }
-        }
-    }
 
     @media (max-width: 980px) {
         .top-bar {
@@ -190,18 +182,27 @@
 
             .top-text {
                 float: unset !important;
-                margin-top: 15%;
+                margin-top: 10px;
             }
         }
     }
 
     @media (max-width: 392px) {
         .top-links a {
-            font-size: 12px !important;
+            font-size: 11px !important;
         }
+
+        .top-text {
+            .text, .hotline {
+                font-size: 12px !important;
+            }
+        }
+
+
 
         .icon-social {
             margin-top: 5px;
         }
     }
+
 }

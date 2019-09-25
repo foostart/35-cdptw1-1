@@ -4,8 +4,8 @@
 .type-1218 .bg-about {
   background-image: url("../images/about-image.jpg");
   padding: 250px 0;
+  background-position: center 30%;
   background-size: cover;
-  background-position: center 20%;
 }
 .type-1218 p {
   text-align: center;

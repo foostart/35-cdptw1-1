@@ -31,7 +31,7 @@
 
     <body>
         <?php
-            include '../1218/1218-content.php';
+            include './1218-content.php';
         ?>
        
      
