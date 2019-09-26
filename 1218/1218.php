@@ -25,16 +25,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">           
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
-         <link href="<?php echo $url_path ?>/css/1218.css" rel="stylesheet" type="text/css" /> 
+        <link href="<?php echo $url_path ?>/css/1218.css" rel="stylesheet" type="text/css" /> 
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" /> 
         <title>type-1218</title>
     </head>
 
     <body>
         <?php
-            include './1218-content.php';
+            include '../1218/1218-content.php';
         ?>
        
-     
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/1218.js"></script>
     </body>
 
 </html>
