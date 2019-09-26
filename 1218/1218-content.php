@@ -24,10 +24,10 @@
                 
             </div>
             <div class="about">
-            <h1>KT-ROYAL</h1>
-            <div class="border"></div>
-            <p class="title-content">Giới Thiệu Công Ty</p>
-        </div>
+				<h1>KT-ROYAL</h1>
+				<div class="border"></div>
+				<p class="title-content">Giới Thiệu Công Ty</p>
+			</div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
             <!-- Add Arrows -->

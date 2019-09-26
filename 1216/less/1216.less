@@ -6,7 +6,6 @@
     @background-color-skype: #087bbd;
     @title-color: yellow;
     @fontsize-text: 15px;
-    //margin-top: 100px;
 
     li {
         list-style: none;
@@ -21,11 +20,7 @@
         margin: 0;
     }
 
-    .line {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-    }
+    
 
     .top-bar {
         .top-links {
@@ -60,7 +55,7 @@
                 background-color: #333;
                 color: #fff;
                 width: 250px;
-                bottom: 50px;
+				top: 50px;
                 padding: 10px 20px;
                 z-index: 1;
                 white-space: nowrap;
@@ -74,7 +69,8 @@
                 position: absolute;
                 border-width: 7px;
                 border-style: solid;
-                top: 111px;
+                bottom: 111px;
+				transform: rotate(180deg);
             }
 
             ul li:hover .frame {
@@ -162,7 +158,8 @@
                     display: block;
                     left: 0;
                     width: 100%;
-                    bottom: 0;
+					//height: 15%;
+                    top: 85%;
                 }
 
                 ul li .frame:after {
@@ -172,7 +169,7 @@
         }
     }
 
-    @media (max-width: 598px) {
+    @media (max-width: 622px) {
         .top-bar {
             text-align: center;
 
@@ -188,21 +185,22 @@
     }
 
     @media (max-width: 392px) {
-        .top-links a {
-            font-size: 11px !important;
-        }
+        .top-bar {
+			.top-links a {
+				font-size: 11px !important;
+			}
+			.top-text {
+				.text, .hotline {
+					font-size: 12px !important;
+				}
+				
+				.icon-social {
+					margin-top: 5px;
+				}
+			}
+		}
 
-        .top-text {
-            .text, .hotline {
-                font-size: 12px !important;
-            }
-        }
-
-
-
-        .icon-social {
-            margin-top: 5px;
-        }
+        
     }
 
 }
