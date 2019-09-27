@@ -2,6 +2,9 @@ function validateForm() {
     if (!validateName() || !validatePhone() || !validateEmail() || !validateSelect()) {
         //alert("Không hợp lệ");
         return false;
+    } else {
+        alert("Gửi thông tin thành công");
+        return true;
     }
 }
 

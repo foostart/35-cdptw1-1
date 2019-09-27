@@ -55,7 +55,7 @@
                     <!--HOTLINE-->
                     <div class="top-text">
                         <span class="text">Hotline:</span><span class="hotline">&nbsp;&nbsp;0982.956.427</span>
-                        <div class='icon-social'>
+                        <div class="icon-social">
                             <a href="#"><i class="fa fa-facebook fb"></i></a>
                             <a href="#"><i class="fa fa-envelope email"></i></a>
                             <a href="#"><i class="fa fa-skype skype"></i></a>

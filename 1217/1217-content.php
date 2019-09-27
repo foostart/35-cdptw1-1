@@ -50,11 +50,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <!--CATEGORY-->
                                 <div class="col-md-4 col-sm-6 padding-20">
                                     <select class="select" name="select_name" id="type">
-                                        <option value="0" class="selected_disable" selected disabled="disabled">Loại công trình</option>
-                                        <option value="1" class="option_select">Residential</option>
-                                        <option value="2" class="option_select">Commercial space</option>
-                                        <option value="3" class="option_select">Office</option>
-                                        <option value="4" class="option_select">Old house renovation</option>
+                                        <option value="0" selected disabled="disabled">Loại công trình</option>
+                                        <option value="1">Residential</option>
+                                        <option value="2">Commercial space</option>
+                                        <option value="3">Office</option>
+                                        <option value="4">Old house renovation</option>
                                     </select>
                                     <i class="fa fa-sort-desc" aria-hidden="true"></i>
                                     <i class="fa fa-sort-up" aria-hidden="true"></i>

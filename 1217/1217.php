@@ -27,6 +27,7 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">      
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/1217.css" rel="stylesheet" type="text/css" /> 
+		<script src="<?php echo $url_path ?>/js/1217.js"></script>
        
 
         <title>1217</title>
@@ -36,7 +37,7 @@
         <?php
             include './1217-content.php';
         ?>
-         <script src="<?php echo $url_path ?>/js/1217.js"></script>
+         
     </body>
 
    

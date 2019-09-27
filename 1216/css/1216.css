@@ -47,7 +47,7 @@
   content: '';
   position: absolute;
   border-width: 7px;
-  border-style: solid;
+  border-style: dashed;
   bottom: 111px;
   transform: rotate(180deg);
 }
