@@ -10,16 +10,16 @@
     <div class="type-1218" id='gioi-thieu-ktroyal'>
 
         <!--ABOUT COMPANY-->
-        <div class="swiper-container slide-about">
+        <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="<?php echo $url_path ?>/images/about-image" alt="">
+                    <img src="<?php echo $url_path ?>/images/about-image.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo $url_path ?>/images/content-rooms-1" alt="">
+                    <img src="<?php echo $url_path ?>/images/content-rooms-1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="<?php echo $url_path ?>/images/content-rooms-3" alt="">
+                    <img src="<?php echo $url_path ?>/images/content-rooms-3.png" alt="">
                 </div>
                 
             </div>
