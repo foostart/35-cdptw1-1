@@ -12,40 +12,47 @@
     $url_path= str_replace('\\', '/', $url_path);
     ?>
     <div class="type-837">
-        <ul id="hexGrid">
-            <li class="hex">
-                <a class="hexIn" href="#">
-                    <div class="hexLink">
-                        <div class="caption">
-                            <h1>Member</h1>
+        <div id="home_quicklinks">
+            <a class="quicklink link1" href="#">
+                <div class="ql_caption">
+                    <div class="outer">
+                        <div class="inner">
+                            <h2>Member</h2>
                         </div>
                     </div>
-                </a>
-            </li>
-            <li class="hex" href="#">
-                <a class="hexIn">
-                    <div class="hexLink">
-                        <div class="caption">
-                            <h1>Event</h1>
+                </div>
+                <span class="ql_top"></span>
+                <span class="ql_bottom"></span>
+            </a>
+            <a class="quicklink link2" href="#">
+                <div class="ql_caption">
+                    <div class="outer">
+                        <div class="inner">
+                            <h2>Event</h2>
                         </div>
                     </div>
-                </a>
-            </li>
-            <li class="hex" href="#">
-                <a class="hexIn">
-                    <div class="hexLink">
-                        <div class="caption">
-                            <h1>Gallery</h1>
+                </div>
+                <span class="ql_top"></span>
+                <span class="ql_bottom"></span>
+            </a>
+            <a class="quicklink link3" href="#">
+                <div class="ql_caption">
+                    <div class="outer">
+                        <div class="inner">
+                            <h2>Gallery </h2>
                         </div>
                     </div>
-                </a>
-            </li>
-            <li class="hex" href="#">
-                <a class="hexIn">
-                    <div class="hexLink">
-                        <img src="./images/meow.jpg" alt="a">
-                    </div>
-                </a>
-            </li>
-        </ul>
+                </div>
+                <span class="ql_top"></span>
+                <span class="ql_bottom"></span>
+            </a>
+
+        </div>
+        <div class="hexagon-wrapper">
+            <div class="hexagon" id="hexagon">
+                <div class="hexTop"></div>
+                <div class="hexBottom"></div>
+            </div>
+        </div>
+
     </div>
