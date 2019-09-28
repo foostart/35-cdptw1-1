@@ -62,12 +62,16 @@
 }
 .type-837 #hexGrid .hex .hexIn .hexLink .caption {
   position: absolute;
-  width: 100%;
+  width: 120px;
   height: 80px;
-  margin-left: -50%;
+  margin-left: -40px;
   margin-top: -40px;
   top: 50%;
   left: 85%;
+}
+.type-837 #hexGrid .hex .hexIn .hexLink .caption h1 {
+  text-align: center;
+  display: inline;
 }
 .type-837 #hexGrid .hex .hexIn .hexLink img {
   left: -100%;
@@ -84,7 +88,7 @@
     padding-bottom: 4.4%;
   }
   .type-837 .hex {
-    width: 33.33333% !important;
+    width: 33.3333% !important;
   }
   .type-837 .hex:nth-child(5n+4) {
     margin-left: 16.666%;
@@ -106,7 +110,7 @@
 }
 @media (max-width: 900px) and (min-width: 601px) {
   .type-837 .hex {
-    width: 33.333%;
+    width: 33.3333%;
   }
   .type-837 .hex .hexLink .caption {
     left: 75% !important;

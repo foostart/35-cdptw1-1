@@ -17,27 +17,21 @@
             <li class="hex">
                 <a class="hexIn" href="#">
                     <div class="hexLink">
-                        <div class="caption">
-                            <h1>Member</h1>
-                        </div>
+                            <img src="./images/meow.jpg" alt="a">
                     </div>
                 </a>
             </li>
             <li class="hex" href="#">
                 <a class="hexIn">
                     <div class="hexLink">
-                        <div class="caption">
-                            <h1>Event</h1>
-                        </div>
+                            <img src="./images/meow.jpg" alt="a">
                     </div>
                 </a>
             </li>
             <li class="hex" href="#">
                 <a class="hexIn">
                     <div class="hexLink">
-                        <div class="caption">
-                            <h1>Gallery</h1>
-                        </div>
+                            <img src="./images/meow.jpg" alt="a">
                     </div>
                 </a>
             </li>
@@ -57,5 +51,7 @@
             </li>
         </ul>
     </div>
+
+</div>
 
 </div>
