@@ -54,11 +54,9 @@
     color: @color;
   }
 
-  
-
-  
 
   .border-text {
+    .border();
     width: 40%;
   }
 
@@ -84,6 +82,11 @@
     }
   }
 
+  @media (max-width: 991px) {
+    .border-text {
+      width: 30%;
+    }
+  }
   @media (max-width:1200px) {
     .about {
       top: 42.5%;
@@ -108,7 +111,6 @@
 
     @media (max-width:380px) {
       .about {
-        top: 35%;
         h1 {
           font-size: 150%;
         }
