@@ -24,12 +24,10 @@ $url_path = str_replace('\\', '/', $url_path);
                         <form class="form_info" action="#" method="post" name="main-contactform">
                             <div class="row">
                                 <!--CONTACT PERSON-->
-                                <div class="col-md-4 col-sm-6 padding-20">
+                                <div class="col-md-4 col-sm-6 padding-20" id="a">
                                     <label class="input">
                                         <input type="text" id="name" name="name" placeholder="Họ và tên">
-                                        <span class='has-error' id='name-error'></span>
                                     </label>
-                                    
                                 </div>
                                 <!--CELL PHONE-->
                                 <div class="col-md-4 col-sm-6 padding-20">
@@ -60,6 +58,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </select>
                                     <i class="fa fa-sort-desc" aria-hidden="true"></i>
                                     <i class="fa fa-sort-up" aria-hidden="true"></i>
+                                   
                                 </div>
                                 <!--CONTENT-->
                                 <div class="typehouse col-md-12 col-sm-12">

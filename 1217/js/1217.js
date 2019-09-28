@@ -1,6 +1,5 @@
 function validateForm() {
     if (!validateName() || !validatePhone() || !validateEmail() || !validateSelect()) {
-        //alert("Không hợp lệ");
         return false;
     } else {
         alert("Gửi thông tin thành công");
@@ -10,40 +9,41 @@ function validateForm() {
 
 function validateName() {
     var a = document.getElementById('name');
-    var name = document.getElementById('name').value;
+    var name = a.value;
     if (name.length == 0) {
-        alert("Xin mời nhập tên");
-        a.focus.style.color = 'red';
+        a.style.outline = 'thin solid red';
         return false;
     }
     return true;
 }
 
 function validatePhone() {
-    var phone = document.getElementById('phone').value;
+    var a = document.getElementById('phone');
+    var phone = a.value;
     if (phone.length == 0) {
-        alert('Xin mời nhập số điện thoại');
+        a.style.outline = 'thin solid red';
         return false;
     }
     if (phone.length > 10 || phone.length < 10) {
-        alert('Số điện thoại không hợp lệ');
+        a.style.outline = 'thin solid red';
         return false;
     }
     if (!phone.match(/^[0-9]{10}$/)) {
-        alert('Số điện thoại không hợp lệ');
+        a.style.outline = 'thin solid red';
         return false;
     }
     return true;
 }
 
 function validateEmail() {
-    var email = document.getElementById('email').value;
+    var a = document.getElementById('email');
+    var email = a.value;
     if (email.length == 0) {
-        alert('Xin mời nhập email');
+        a.style.outline = 'thin solid red';
         return false;
     }
     if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-        alert('Email không hợp lệ');
+        a.style.outline = 'thin solid red';
         return false;
     }
     return true;
@@ -54,7 +54,7 @@ function validateSelect() {
     var typeValue = type.options[type.selectedIndex].value;
     var strType = type.options[type.selectedIndex].text;
     if (typeValue == 0) {
-        alert("Xin chọn loại công trình");
+        type.style.outline = 'thin solid red';
         return false;
     }
     return true;
