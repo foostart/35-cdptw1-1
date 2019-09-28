@@ -11,7 +11,8 @@
 
     $url_path= str_replace('\\', '/', $url_path);
     ?>
-    <div class="type-837">
+<div class="type-837">
+    <div class="container">
         <ul id="hexGrid">
             <li class="hex">
                 <a class="hexIn" href="#">
@@ -56,3 +57,5 @@
             </li>
         </ul>
     </div>
+
+</div>
