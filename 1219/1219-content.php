@@ -9,7 +9,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-1219">
     <!--LIST COMPANY-->
     <div class="container line">
-        <div class="row">
+        <div class="row line-row">
             <!--TITLE-->
             <div class="in">TỔ CHỨC CÔNG TY
                 <span class="depa">KTROYAL</span>

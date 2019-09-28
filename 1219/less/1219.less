@@ -1,6 +1,11 @@
 .type-1219 {
     @color: #FCDC4A;
     @fontsize-text: 15px;
+    @bg-color-hvr: #f9f9f9;
+    @icon-color: #fff;
+    @bg-icon-hover: #ffd000;
+    @ican-bg-color: #e0e0e0;
+    @border-color-hvr: #e1e1e1;
     background-color: #eee;
     text-align: center;
 
@@ -14,29 +19,12 @@
         margin-top: 15px;
     }
 
-    .row {
+    .line-row {
         margin-top: 50px;
         margin-left: 0;
         margin-right: 0;
     }
 
-    .hvr-backward:hover {
-        transform: translateX(-10px);
-        background-color: transparent;
-
-        .text {
-            left: -15px;
-            position: relative;
-        }
-
-        .ican {
-            right: 0;
-        }
-
-        .hvr-backward {
-            background-color: #f9f9f9;
-        }
-    }
 
     .hvr-backward {
         position: absolute;
@@ -44,13 +32,29 @@
         top: calc(50% - 10px);
         right: 0;
         content: '';
+        background-color: @bg-color-hvr;
         border-style: solid;
         border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent #e1e1e1;
+        border-color: transparent transparent transparent @border-color-hvr;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
         -webkit-transition-property: transform;
         transition-property: transform;
+
+        &:hover {
+            transform: translateX(-10px);
+            background-color: transparent;
+
+            .ican {
+                right: 0;
+            }
+
+            .text {
+                left: -15px;
+                position: relative;
+            }
+        }
+
     }
 
     h4 {
@@ -95,21 +99,18 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         border: none;
-    }
 
-    .icon {
-        background-color: #ffe365;
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-        font-size: 50px;
-        text-align: center;
-        padding-top: 25px;
-        color: #ffffff;
-    }
-
-    .icon:hover {
-        background-color: #ffd000;
+        .ican {
+            font-size: 10px;
+            right: -50px;
+            position: absolute;
+            top: 0px;
+            transition: all 0.3s ease;
+            padding: 18px;
+            padding-left: 13px;
+            padding-right: 13px;
+            background-color: @ican-bg-color;
+        }
     }
 
     h3 {
@@ -124,46 +125,39 @@
     .margin-tb-s {
         margin-top: 30px;
         margin-bottom: 0px;
-    }
-
-    hr {
         border-top: 1px solid #cecaca;
         box-sizing: content-box;
         height: 0;
     }
 
-    .depa {
-        color: #fdd000;
-    }
-    
-    .hvr-icon-forward .hvr-icon:hover {
-        display: inline-block;
-    }
-
-    .hvr-icon-forward .hvr-icon {
-        display: none;
-    }
 
     .in {
         font-weight: bold;
         font-size: 20px;
-    }
-
-    .ican {
-        font-size: 10px;
-        right: -50px;
-        position: absolute;
-        top: 0px;
-        transition: all 0.3s ease;
-        padding: 18px;
-        padding-left: 13px;
-        padding-right: 13px;
-        background-color: #e0e0e0;
+        .depa {
+            color: #fdd000;
+        }
     }
 
     .ico {
         padding-right: 0;
         padding-left: 0;
+
+        .icon {
+            background-color: #ffe365;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            font-size: 50px;
+            text-align: center;
+            padding-top: 25px;
+            color: @icon-color;
+
+            &:hover {
+                background-color: @bg-icon-hover;
+            }
+        }
+
     }
 
     @media (max-width: 380px) {
@@ -176,18 +170,20 @@
     @media (max-width: 270px) {
         .button {
             width: 200px;
-            font-size:11px;
+            font-size: 11px;
         }
 
         h3 {
             font-size: 10px;
         }
 
-        .icon {
-            height: 80px;
-            width: 80px;
-            font-size: 40px;
-            padding-top: 20px;
+        .ico {
+            .icon {
+                height: 80px;
+                width: 80px;
+                font-size: 40px;
+                padding-top: 20px;
+            }
         }
     }
 }

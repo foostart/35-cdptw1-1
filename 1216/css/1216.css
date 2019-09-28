@@ -51,14 +51,14 @@
   bottom: 111px;
   transform: rotate(180deg);
 }
-.type-1216 .top-bar .top-links ul li:hover .frame {
-  display: block;
-}
-.type-1216 .top-bar .top-links .title {
+.type-1216 .top-bar .top-links ul li .frame .title {
   font-size: 15px;
   font-weight: bold;
   color: yellow;
   text-align: center;
+}
+.type-1216 .top-bar .top-links ul li:hover .frame {
+  display: block;
 }
 .type-1216 .top-bar .top-text {
   float: right;

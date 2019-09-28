@@ -24,7 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <form class="form_info" action="#" method="post" name="main-contactform">
                             <div class="row">
                                 <!--CONTACT PERSON-->
-                                <div class="col-md-4 col-sm-6 padding-20" id="a">
+                                <div class="col-md-4 col-sm-6 padding-20">
                                     <label class="input">
                                         <input type="text" id="name" name="name" placeholder="Họ và tên">
                                     </label>

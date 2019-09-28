@@ -56,6 +56,9 @@
   margin-top: 30px;
   line-height: 20px;
 }
+.type-1218 .swiper-pagination-bullet-active {
+  background: #fdd000;
+}
 .type-1218 .swiper-button-next,
 .type-1218 .swiper-button-prev {
   color: #fdd000;

@@ -14,29 +14,27 @@
   z-index: 1;
   font-size: 13px;
 }
-.type-1217 label {
-  margin-bottom: 0;
-}
-.type-1217 .padding-20 {
-  padding: 25px;
-  padding-left: 15px;
-  padding-right: 20px;
-  line-height: 1.3;
-}
 .type-1217 .contact_us {
   color: #f0e7df;
   margin: 30px 15px;
   padding: 0;
   overflow: hidden;
 }
-.type-1217 .contact_us .content_sub {
+.type-1217 .contact_us .contact_title .content_sub {
   padding: 30px 5px 10px 0px;
   font-size: 15px !important;
+}
+.type-1217 .contact_us .contact_form .form_info .padding-20 {
+  padding: 25px;
+  padding-left: 15px;
+  padding-right: 20px;
+  line-height: 1.3;
 }
 .type-1217 .contact_us .contact_form .form_info .input {
   border-bottom: 2px solid #f0e7df;
   width: 100%;
   max-width: 100%;
+  margin-bottom: 0;
 }
 .type-1217 .contact_us .contact_form .form_info .input input {
   background: transparent;
@@ -58,11 +56,11 @@
   width: 100%;
   max-width: 100%;
 }
-.type-1217 .contact_us .contact_form .form_info .select option {
-  color: #000;
-}
 .type-1217 .contact_us .contact_form .form_info .select:focus {
   outline: none;
+}
+.type-1217 .contact_us .contact_form .form_info .select option {
+  color: #000;
 }
 .type-1217 .contact_us .contact_form .form_info select {
   appearance: none;
@@ -83,7 +81,7 @@
   font-size: 20px;
   font-weight: bold;
 }
-.type-1217 .contact_us .contact_form .form_info .detail {
+.type-1217 .contact_us .contact_form .form_info .typehouse .detail {
   color: #4d4d4d;
   background: #f0e7df;
   max-width: 100%;
@@ -91,10 +89,10 @@
   height: 112px;
   max-height: 112px;
 }
-.type-1217 .contact_us .contact_form .form_info .detail:focus {
+.type-1217 .contact_us .contact_form .form_info .typehouse .detail:focus {
   outline: none;
 }
-.type-1217 .contact_us .contact_form .form_info .detail:hover {
+.type-1217 .contact_us .contact_form .form_info .typehouse .detail:hover {
   border-bottom: 2px solid #fdd000;
 }
 .type-1217 .contact_us .contact_form .form_info .button {
@@ -125,11 +123,11 @@
   }
 }
 @media all and (max-width: 535px) {
-  .type-1217 .content_sub {
-    text-align: justify;
-  }
   .type-1217 .contact_title {
     text-align: center;
+  }
+  .type-1217 .contact_title .content_sub {
+    text-align: justify;
   }
   .type-1217 img {
     width: 80%;
