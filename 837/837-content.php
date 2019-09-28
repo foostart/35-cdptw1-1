@@ -11,51 +11,47 @@
 
     $url_path= str_replace('\\', '/', $url_path);
     ?>
-<div class="type-837">
-    <div class="container">
-        <ul id="hexGrid">
-            <li class="hex">
-                <a class="hexIn" href="#">
-                    <div class="hexLink">
-                        <div class="caption">
-                            <h1>Member</h1>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="hex" href="#">
-                <a class="hexIn">
-                    <div class="hexLink">
-                        <div class="caption">
-                            <h1>Event</h1>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="hex" href="#">
-                <a class="hexIn">
-                    <div class="hexLink">
-                        <div class="caption">
-                            <h1>Gallery</h1>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="hex" href="#">
-                <a class="hexIn">
-                    <div class="hexLink">
-                        <img src="./images/meow.jpg" alt="a">
-                    </div>
-                </a>
-            </li>
-            <li class="hex" href="#">
-                <a class="hexIn">
-                    <div class="hexLink">
-                        <img src="./images/meow.jpg" alt="a">
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
+    <div class="type-837">
+        <div class="container">
+            <div class="row">
+                <ul id="hexGrid">
+                    <li class="hex">
+                        <a class="hexIn" href="#">
+                            <div class="hexLink">
+                                <div class="caption">Member</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hex">
+                        <a class="hexIn" href="#">
+                            <div class="hexLink">
+                                <div class="caption">Event</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hex">
+                        <a class="hexIn" href="#">
+                            <div class="hexLink">
+                                <div class="caption">Gallery</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hex">
+                        <a class="hexIn" href="#">
+                            <div class="hexLink">
+                                <img src="./images/meow.png" alt="a">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="hex">
+                        <a class="hexIn" href="#">
+                            <div class="hexLink">
+                                <img src="./images/meow-2.png" alt="a">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-</div>
+    </div>

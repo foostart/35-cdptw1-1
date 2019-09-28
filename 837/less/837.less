@@ -1,20 +1,26 @@
-@border_color_1: #fc6719;
-@border_color_2: #45810c;
-@border_color_3: #2f60f3;
-
 .type-837 {
+    @border_color_1: #fc6719;
+    @border_color_2: #45810c;
+    @border_color_3: #2f60f3;
+    @width-hex-1: 33.33333%;
+    @width-hex-2: 50%;
+    @margin-left-1: 16.66666%;
+    @margin-left-2: 25%;
+    @fontsize-caption: 35px;
+
     #hexGrid {
         display: flex;
-        flex-wrap: wrap;
         width: 90%;
+        flex-wrap: wrap;
         margin: 0 auto;
         overflow: hidden;
-        font-size: 15px;
         list-style: none;
-        margin-top: 20px;
+        margin-top: 50px !important;
+        padding: 0;
 
         .hex {
             position: relative;
+            visibility: hidden;
             outline: 1px solid transparent;
 
             &:nth-child(4) {
@@ -41,16 +47,15 @@
 
             .hexIn {
                 position: absolute;
-                width: 76%;
-                padding-bottom: 86.851%;
+                width: 96%;
+                padding-bottom: 110.851%;
                 margin: 0 2%;
                 overflow: hidden;
+                visibility: hidden;
                 outline: 1px solid transparent;
-                -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
-                -ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
                 transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
 
-                * {
+                & * {
                     position: absolute;
                     visibility: visible;
                     outline: 1px solid transparent;
@@ -65,21 +70,18 @@
                     display: block;
                     width: 100%;
                     height: 100%;
-                    text-align: center;
                     color: #fff;
                     overflow: hidden;
-                    -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
-                    -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
                     transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+                    position: absolute;
 
                     .caption {
+                        text-align: center;
+                        font-size: @fontsize-caption;
                         position: absolute;
-                        width: 100%;
-                        height: 80px;
-                        margin-left: -50%;
-                        margin-top: -40px;
                         top: 50%;
-                        left: 85%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
                     }
 
                     img {
@@ -96,97 +98,102 @@
             }
 
         }
-
     }
 
     @media (min-width:1201px) {
         #hexGrid {
-            padding-bottom: 4.4%
+            padding-bottom: 8%;
         }
 
         .hex {
-            width: 33.33333% !important;
+            width: @width-hex-1  !important;
         }
 
         .hex:nth-child(5n+4) {
-            margin-left: 16.666%;
+            margin-left: @margin-left-1;
         }
     }
 
     @media (max-width: 1200px) and (min-width:901px) {
-        .hex {
-            width: 33.3333%;
+        #hexGrid {
+            padding-bottom: 7.5%;
+        }
 
-            .hexLink {
-                .caption {
-                    left: 80% !important;
-                    h1 {
-                        font-size: 180%;
-                    }
-                }
-            }
+        .hex {
+            width: @width-hex-1;
         }
 
         .hex:nth-child(5n+4) {
-            margin-left: 16.666%;
+            margin-left: @margin-left-1;
         }
     }
 
     @media (max-width: 900px) and (min-width:601px) {
+        #hexGrid {
+            padding-bottom: 7.4%
+        }
 
         .hex {
-            width: 33.333%;
+            width: @width-hex-1;
 
             .hexLink {
                 .caption {
-                    left: 75% !important;
-                    h1 {
-                        font-size: 150%;
-                    }
+                    font-size: 25px !important;
                 }
             }
         }
 
         .hex:nth-child(5n+4) {
-            margin-left: 16.666%;
+            margin-left: @margin-left-1;
         }
     }
 
     @media (max-width: 600px) {
+        #hexGrid {
+            padding-bottom: 11.2%
+        }
 
         .hex {
-            width: 50%;
+            width: @width-hex-2;
 
             .hexLink {
                 .caption {
-                    left: 70% !important;
-                    h1 {
-                        font-size: 150%;
-                    }
+                    font-size: 25px !important;
                 }
             }
         }
 
         .hex:nth-child(3n+3) {
-            margin-left: 25%;
+            margin-left: @margin-left-2;
         }
     }
 
     @media (max-width: 400px) {
-
         .hex {
-            width: 50%;
+            width: @width-hex-2;
 
             .hexLink {
                 .caption {
-                    h1 {
-                        font-size: 130%;
-                    }
+                    font-size: 20px !important;
                 }
             }
         }
+
         .hex:nth-child(3n+3) {
-            margin-left: 25%;
+            margin-left: @margin-left-2;
         }
+    }
+
+    @media (max-width: 200px) {
+        .hex {
+            width: @width-hex-2;
+
+            .hexLink {
+                .caption {
+                    font-size: 15px !important;
+                }
+            }
+        }
+
     }
 }

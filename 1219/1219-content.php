@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <hr class="margin-tb-s">
     <!--LIST JOB-->
     <div class="container line">
-        <div class="row line-c">
+        <div class="row line-row">
             <!--TITLE-->
             <div class="in">CHÚNG TÔI
                 <span class="depa">CUNG CẤP</span>
