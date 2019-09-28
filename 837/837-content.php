@@ -47,5 +47,12 @@
                     </div>
                 </a>
             </li>
+            <li class="hex" href="#">
+                <a class="hexIn">
+                    <div class="hexLink">
+                        <img src="./images/meow.jpg" alt="a">
+                    </div>
+                </a>
+            </li>
         </ul>
     </div>

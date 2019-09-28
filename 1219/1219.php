@@ -33,7 +33,7 @@
 
 <body>
     <?php
-    include './1219-content.php';
+    include $dir_block.'/1219-content.php';
     ?>
 </body>
 

@@ -24,8 +24,6 @@ $less->compileFile('less/837.less', 'css/837.css');
 		
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/837.css" rel="stylesheet" type="text/css" />
-		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
         <?php
         if (!class_exists('lessc')) {
@@ -36,6 +34,6 @@ $less->compileFile('less/837.less', 'css/837.css');
         ?>
     </head>
     <body >
-        <?php include './837-content.php'; ?>
+        <?php include $dir_block.'/837-content.php'; ?>
     </body>
 </html>

@@ -32,7 +32,7 @@
 
     <body>
         <?php
-            include '../1218/1218-content.php';
+            include $dir_block.'/1218-content.php';
         ?>
        
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
