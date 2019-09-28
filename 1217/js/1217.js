@@ -9,9 +9,11 @@ function validateForm() {
 }
 
 function validateName() {
+    var a = document.getElementById('name');
     var name = document.getElementById('name').value;
     if (name.length == 0) {
         alert("Xin mời nhập tên");
+        a.focus.style.color = 'red';
         return false;
     }
     return true;

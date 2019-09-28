@@ -27,7 +27,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <div class="col-md-4 col-sm-6 padding-20">
                                     <label class="input">
                                         <input type="text" id="name" name="name" placeholder="Họ và tên">
+                                        <span class='has-error' id='name-error'></span>
                                     </label>
+                                    
                                 </div>
                                 <!--CELL PHONE-->
                                 <div class="col-md-4 col-sm-6 padding-20">
